@@ -2,7 +2,7 @@
 
 ### Created by Alan Sanchez
 
-https://github.com/CodeAlanSanchez/coalition-test
+https://github.com/CodeAlanSanchez/tasks-manager
 
 ## Installation
 
