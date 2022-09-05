@@ -8,7 +8,7 @@ https://github.com/CodeAlanSanchez/coalition-test
 
 1. run `git clone https://github.com/CodeAlanSanchez/coalition-test`
 2. cd into project `cd coalition-test`
-3. Install npm packages `npm run install`
+3. Install npm packages `npm install`
 4. Install composer packages `composer install`
 5. Copy .env.example file to .env `cp .env.example .env`
 6. Fill in .env with MySql database credentials and info
