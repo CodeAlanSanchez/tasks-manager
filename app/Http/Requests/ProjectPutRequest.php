@@ -26,4 +26,5 @@ class ProjectPutRequest extends FormRequest
         return [
             'name' => 'required|string'
         ];
+    }
 }
