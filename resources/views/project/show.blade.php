@@ -15,11 +15,9 @@
             <h2 class="text-slate-700 text-center text-2xl">Tasks</h2>
         </div>
         @if (!empty($project->tasks))
-            <div class="tasks">
-                @foreach ($project->tasks as $task)
-                    @include('utils.item', ['url' => 'tasks', 'item' => $task])
-                @endforeach
-            </div>
+            @foreach ($project->tasks as $task)
+                @include('utils.item', ['url' => 'tasks', 'item' => $task])
+            @endforeach
         @else
             <div class="mt-4 p-4 rounded shadow max-w-md mx-auto bg-white">
                 <p class="text-slate-700 text-md">No tasks available...</p>
